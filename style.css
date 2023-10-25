@@ -187,7 +187,7 @@ li {
     .descricao {
         height: auto;
         width: 100%;
-        padding-left: 10px;
+        padding-left: 20px;
     }
 
     .sobre-mim {
@@ -222,19 +222,19 @@ li {
     }
 
     .lista-formacao {
-        padding-left: 10px;
+        padding-left: 20px;
     }
 
     /* Configuracao para Mobile - Projetos */
     .artigo-projetos {
         margin-top: 50px;
         margin-bottom: 50px;
+        padding-left: 20px
     }
 
     .titulo-projetos {
         font-size: 16px;
         margin-bottom: 10px;
-        padding-left: 10px
     }
 }
 
@@ -286,6 +286,6 @@ i{
     }
 
     .container-rodape {
-        padding-left: 10px; 
+        padding-left: 20px; 
     }
 }
