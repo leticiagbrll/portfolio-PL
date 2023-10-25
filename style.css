@@ -28,6 +28,29 @@ li {
     text-decoration: none;
 }
 
+
+/* Configuração para mobile */
+@media (max-width: 767px) {
+    .cabecalho {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .lista-menu {
+        text-align: center; /* Alinhe a lista ao centro */
+    }
+
+    .lista-menu li {
+        margin-bottom: 10px; /* Adicione margem entre os itens da lista */
+    }
+    
+    .lista-menu li > a {
+        font-size: 16px; /* Reduza o tamanho da fonte para dispositivos móveis */
+    }
+}
+
 /*MAIN*/
 /**PERFIL**/
 .descricao{
@@ -157,6 +180,63 @@ li {
     margin-bottom: 16px;
 }
 
+
+
+/* Configuracao para Mobile - Perfil */
+@media (max-width: 767px) {
+    .descricao {
+        height: auto;
+    }
+
+    .sobre-mim {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .avatar {
+        height: 100px;
+        width: 100px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .titulo-principal {
+        font-size: 24px;
+    }
+
+    .subtitulo-principal {
+        font-size: 18px;
+    }
+
+    /* Configuracao para Mobile - Formacao */
+    .artigo-formacao {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .titulo-sessao {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .lista-formacao {
+        padding-left: 20px;
+    }
+
+    /* Configuracao para Mobile - Projetos */
+    .artigo-projetos {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .titulo-projetos {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
 /*Footer*/
 footer {
     display: flex;
@@ -187,4 +267,22 @@ footer {
 i{
     margin-right: 13.5px;
     color: #FFFFFF;
+}
+
+
+/* Estilos para telas menores (mobile) usando uma regra de mídia query */
+@media (max-width: 767px) {
+    footer {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .lista-rodape li {
+        margin-bottom: 20px;
+    }
+
+    .container-rodape {
+        margin-left: 0; 
+    }
 }
