@@ -187,6 +187,7 @@ li {
     .descricao {
         height: auto;
         width: 100%;
+        padding-left: 10px;
     }
 
     .sobre-mim {
@@ -233,6 +234,7 @@ li {
     .titulo-projetos {
         font-size: 16px;
         margin-bottom: 10px;
+        padding-left: 10px
     }
 }
 
@@ -284,6 +286,6 @@ i{
     }
 
     .container-rodape {
-        margin-left: 0px; 
+        padding-left: 10px; 
     }
 }
