@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+}
+
+/*Cabecalho*/
+.cabecalho {
+    background-color: #BE89CB;
+    height: 103px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lista-menu li>a {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/*MAIN*/
+/**PERFIL**/
+.descricao{
+    background-color: #EDEAEA;
+    height: 579px;
+    text-align: center;
+}
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
+.sobre-mim {
+    font-size: 14px;
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    font-family: 'ABeeZee', serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.italico{
+    background-color: #FF4DBC;
+}
+
+.titulo-principal {
+    font-weight: 700;
+    color: #FF4DBC;
+    font-size: 36px;
+    font-style: normal;
+}
+
+.subtitulo-principal {
+    font-weight: 700px;
+    color: #C5C0C0;
+    font-size: 24px;
+}
+
+/*Formação*/
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    max-width: 750px;
+}
+
+.artigo-formacao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.titulo-sessao {
+    color:#FF4DBC;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.lista-formacao {
+    padding-left: 32px;
+}
+
+.titulo-formacao{
+    color: #828282;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.link-formacao{
+    color: #2F80ED;
+    font-size: 14px;
+}
+
+.descricao-formacao{
+    font-size: 14px;
+    margin-top: 8px;
+    font-family: 'ABeeZee', serif;
+    text-align: justify;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+/*Meus Projetos*/
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    max-width: 750px;
+}
+
+.artigo-projetos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.lista-projetos {
+    padding-left: 32px;
+}
+
+.titulo-projetos {
+    color: #661E4B;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.subtitulo-projetos {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.container-projetos{
+    margin-bottom: 16px;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    align-items: center;
+    height: 198px;
+    background-color: #BE89CB;  
+}
+
+.lista-rodape li{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.link-rodape{
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
+    text-decoration-line: underline;
+}
+
+.container-rodape{
+    margin-left: 60px;
+}
+
+i{
+    margin-right: 13.5px;
+    color: #FFFFFF;
+}
