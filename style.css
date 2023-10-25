@@ -8,13 +8,13 @@
 li {
     list-style: none;
     display: inline;
-    margin-right: 40px;
+    margin-right: 2.5em;
 }
 
 /*Cabecalho*/
 .cabecalho {
     background-color: #BE89CB;
-    height: 103px;
+    height: 6.438em;
     width: 100%;
     display: flex;
     align-items: center;
@@ -23,31 +23,31 @@ li {
 
 .lista-menu li>a {
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
     text-decoration: none;
 }
 
 
 /* Configuração para mobile */
-@media (max-width: 767px) {
+@media (max-width: 47.938em) {
     .cabecalho {
         width: 100%;
         height: auto;
-        padding: 10px;
+        padding: 0.625em;
         text-align: center;
     }
 
     .lista-menu {
-        text-align: center; /* Alinhe a lista ao centro */
+        text-align: center;
     }
 
     .lista-menu li {
-        margin-bottom: 10px; /* Adicione margem entre os itens da lista */
+        margin-bottom: 0.625em;
     }
     
     .lista-menu li > a {
-        font-size: 16px; /* Reduza o tamanho da fonte para dispositivos móveis */
+        font-size: 1em;
     }
 }
 
@@ -55,26 +55,26 @@ li {
 /**PERFIL**/
 .descricao{
     background-color: #EDEAEA;
-    height: 579px;
+    height: 36.125em;
     text-align: center;
 }
 
 .avatar {
-    height: 150px;
-    width: 150px;
+    height: 9.375em;
+    width: 9.375em;
     border-radius: 50%;
-    margin-top: 48px;
-    margin-bottom: 20px;
+    margin-top: 3em;
+    margin-bottom: 1.25em;
 }
 
 .sobre-mim {
-    font-size: 14px;
-    width: 490px;
+    font-size: 0.875em;
+    width: 30.625em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 21px;
+    margin-top: 1.313em;
     font-family: 'ABeeZee', serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     font-style: normal;
 }
@@ -86,14 +86,14 @@ li {
 .titulo-principal {
     font-weight: 700;
     color: #FF4DBC;
-    font-size: 36px;
+    font-size: 2.25em;
     font-style: normal;
 }
 
 .subtitulo-principal {
-    font-weight: 700px;
+    font-weight: 43.75em;
     color: #C5C0C0;
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 /*Formação*/
@@ -107,134 +107,135 @@ li {
 .artigo-formacao {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 5.375em;
+    margin-bottom: 6.25em;
 }
 
 .titulo-sessao {
     color:#FF4DBC;
-    font-size: 24px;
+    font-size: 1.5em;
     font-style: normal;
     font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 3.125em;
 }
 
 .lista-formacao {
-    padding-left: 32px;
+    padding-left: 2em;
 }
 
 .titulo-formacao{
     color: #828282;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
 }
 
 .link-formacao{
     color: #2F80ED;
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 .descricao-formacao{
-    font-size: 14px;
-    margin-top: 8px;
+    font-size: 0.875em;
+    margin-top: 0.5em;
     font-family: 'ABeeZee', serif;
     text-align: justify;
     color: #000000;
-    margin-bottom: 16px;
+    margin-bottom: 1em;
 }
 
 /*Meus Projetos*/
 .container {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 86px;
-    max-width: 750px;
+    margin-top: 5.375em;
+    max-width: 46.875em;
 }
 
 .artigo-projetos {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 6.25em;
+    margin-bottom: 6.25em;
 }
 
 .lista-projetos {
-    padding-left: 32px;
+    padding-left: 2em;
 }
 
 .titulo-projetos {
     color: #661E4B;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 0.5em;
 }
 
 .subtitulo-projetos {
     color: #000000;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 400;
-    margin-bottom: 8px;
+    margin-bottom: 0.5em;
 }
 
 .container-projetos{
-    margin-bottom: 16px;
+    margin-bottom: 1em;
 }
 
 
 /* Configuracao para Mobile - Perfil */
 
-@media (max-width: 767px) {
+@media (max-width: 47.938em) {
     .descricao {
         height: auto;
         width: 100%;
-        padding-left: 20px;
+        padding-left: 1.25em;
     }
 
     .sobre-mim {
         width: auto;
-        font-size: 14px;
+        font-size: 0.875em;
+        text-align: center;
     }
 
     .avatar {
-        height: 100px;
-        width: 100px;
-        margin-top: 20px;
-        margin-bottom: 10px;
+        height: 6.25em;
+        width: 6.25em;
+        margin-top: 1.25em;
+        margin-bottom: 0.625em;
     }
 
     .titulo-principal {
-        font-size: 24px;
+        font-size: 1.5em;
     }
 
     .subtitulo-principal {
-        font-size: 18px;
+        font-size: 1.125em;
     }
 
     /* Configuracao para Mobile - Formacao */
     .artigo-formacao {
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 3.125em;
+        margin-bottom: 3.125em;
     }
 
     .titulo-sessao {
-        font-size: 18px;
-        margin-bottom: 30px;
+        font-size: 1.125em;
+        margin-bottom: 1.875em;
     }
 
     .lista-formacao {
-        padding-left: 20px;
+        padding-left: 1.25em;
     }
 
     /* Configuracao para Mobile - Projetos */
     .artigo-projetos {
-        margin-top: 50px;
-        margin-bottom: 50px;
-        padding-left: 20px
+        margin-top: 3.125em;
+        margin-bottom: 3.125em;
+        padding-left: 1.25em
     }
 
     .titulo-projetos {
-        font-size: 16px;
-        margin-bottom: 10px;
+        font-size: 1em;
+        margin-bottom: 0.625em;
     }
 }
 
@@ -242,51 +243,51 @@ li {
 footer {
     display: flex;
     align-items: center;
-    height: 198px;
+    height: 12.375em;
     background-color: #BE89CB;  
 }
 
 .lista-rodape li{
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 700;
-    margin-bottom: 28px;
+    margin-bottom: 1.75em;
 }
 
 .link-rodape{
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 0.875em;
     text-decoration: none;
     text-decoration-line: underline;
 }
 
 .container-rodape{
-    margin-left: 60px;
+    margin-left: 3.75em;
 }
 
 i{
-    margin-right: 13.5px;
+    margin-right: 0.844em;
     color: #FFFFFF;
 }
 
 
 /* Estilos para telas menores (mobile) usando uma regra de mídia query */
-@media (max-width: 767px) {
+@media (max-width: 47.938em) {
     footer {
         width: 100%;
         height: auto;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 10px; 
+        padding: 0.625em; 
     }
 
     .lista-rodape li {
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
     }
 
     .container-rodape {
-        padding-left: 0; 
+        padding-left: 0em; 
     }
 }
