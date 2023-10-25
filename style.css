@@ -185,11 +185,12 @@ li {
 
 @media (max-width: 767px) {
     .descricao {
-        width: auto;
         height: auto;
+        width: 100%;
     }
 
     .sobre-mim {
+        width: auto;
         font-size: 14px;
     }
 
@@ -220,7 +221,7 @@ li {
     }
 
     .lista-formacao {
-        padding-left: 20px;
+        padding-left: 10px;
     }
 
     /* Configuracao para Mobile - Projetos */
@@ -234,8 +235,6 @@ li {
         margin-bottom: 10px;
     }
 }
-
-
 
 /*Footer*/
 footer {
@@ -285,6 +284,6 @@ i{
     }
 
     .container-rodape {
-        margin-left: 0; 
+        margin-left: 0px; 
     }
 }
