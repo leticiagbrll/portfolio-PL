@@ -185,7 +185,7 @@ li {
 
 @media (max-width: 767px) {
     .descricao {
-        width: 100%;
+        width: auto;
         height: auto;
     }
 
