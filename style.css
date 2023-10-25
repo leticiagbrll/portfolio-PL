@@ -279,6 +279,7 @@ i{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 20px; 
     }
 
     .lista-rodape li {
@@ -286,6 +287,6 @@ i{
     }
 
     .container-rodape {
-        padding-left: 20px; 
+        padding-left: 0; 
     }
 }
