@@ -210,6 +210,7 @@ li {
 
     /* Configuracao para Mobile - Formacao */
     .artigo-formacao {
+        width: 100%;
         margin-top: 50px;
         margin-bottom: 50px;
     }
@@ -225,6 +226,7 @@ li {
 
     /* Configuracao para Mobile - Projetos */
     .artigo-projetos {
+        width: 100%;
         margin-top: 50px;
         margin-bottom: 50px;
     }
@@ -274,7 +276,9 @@ i{
 @media (max-width: 767px) {
     footer {
         height: auto;
+        width: 100%;
         flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 
