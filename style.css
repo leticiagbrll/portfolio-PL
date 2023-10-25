@@ -181,15 +181,15 @@ li {
 }
 
 
-
 /* Configuracao para Mobile - Perfil */
+
 @media (max-width: 767px) {
     .descricao {
+        width: 100%;
         height: auto;
     }
 
     .sobre-mim {
-        width: 100%;
         font-size: 14px;
     }
 
@@ -273,11 +273,11 @@ i{
 /* Estilos para telas menores (mobile) usando uma regra de mídia query */
 @media (max-width: 767px) {
     footer {
-        height: auto;
         width: 100%;
+        height: auto;
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        justify-content: center;
     }
 
     .lista-rodape li {
