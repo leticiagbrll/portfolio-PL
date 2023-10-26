@@ -191,11 +191,10 @@ li {
     }
 
     .sobre-mim {
-        display: inline-flex;
         width: auto;
         font-size: 0.875em;
         text-align: center;
-        justify-content: center
+        margin: auto;
     }
 
     .avatar {
