@@ -191,7 +191,7 @@ li {
     }
 
     .sobre-mim {
-        display: flex;
+        display: inline-flex;
         width: auto;
         font-size: 0.875em;
         text-align: center;
